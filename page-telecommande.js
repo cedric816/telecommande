@@ -9,7 +9,7 @@ document.querySelector("main > ul > li:nth-of-type(1)").addEventListener("click"
 // même chose avec les autres touches de ma télécommande
 
 document.querySelector("main > ul > li:nth-of-type(2)").addEventListener("click", (event) => {
-  let bruit = new Audio('sons/chevre.wav');
+  let bruit = new Audio('sons/chevre.m4a');
   bruit.play();
 });
 
