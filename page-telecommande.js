@@ -28,6 +28,7 @@ var telecommandeAdulte = document.getElementById('telecommandeAdulte');
 window.onload = init();
 function init(){
     telecommandeAdulte.style.display = "none";
+    telecommandeEnfant.style.display = "none";
 }
 
 function selection(){
