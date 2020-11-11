@@ -1,0 +1,46 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- spécial kid -->
+  <title>Télécommande à bruits</title>
+  <link rel="stylesheet" href="page-telecommande.css">
+</head>
+<body>
+
+  <header>
+    <h1>Ma télécommande à bruits</h1>
+    <form>
+        <select name="choix" id="choixTelecommande">
+        <option value="enfant">enfant</option>
+        <option value="adulte">adulte</option>
+        </select>
+        <input type="button" value="valider" onclick="selection()">
+    </form>
+    
+  </header>
+    
+  <main id="telecommandeEnfant" display="none">
+    <ul>
+      <li>chat</li>
+      <li>sncf</li>
+      <li>rot</li>
+      <li>bateau</li>
+    </ul>
+  </main>
+    <main id="telecommandeAdulte" display="none">
+    <ul>
+      <li>biere</li>
+      <li>vin</li>
+      <li>vodka</li>
+      <li>chips</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>Sauf mention contraire, le contenu de cette page est distribué sous <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="noreferrer">licence CC BY-SA 4.0</a></p>
+  </footer>
+
+  <!-- je place mon js à la fin pour ne pas pénaliser le chargement de ma page -->
+  <script src="page-telecommande.js"></script>
+
+
+</body>
